@@ -1,11 +1,25 @@
 {
   "name": "stripetest",
   "version": "1.0.0",
-  "description": "test stripe example",
+  "description": "A sample Node.js app stripe payments",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "barry horgan",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.13.3",
+    "stripe":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barry07/stripetest"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "stripe"
+  ],
+  "author": "Barry Horgan",
+  "license": "MIT"
 }
