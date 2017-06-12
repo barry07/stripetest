@@ -4,7 +4,7 @@
   "description": "A sample Node.js app stripe payments",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "PUBLISHABLE_KEY=pk_test_nf2cOZxDACccS2Hw7uEncIpy SECRET_KEY=sk_test_3tVL8s8Yco9GJMyT4KHjdb6J node app.js"
   },
   "dependencies": {
     "express": "^4.13.3",
