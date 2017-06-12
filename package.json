@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.13.3",
     "pug": "",
+    "body-parser": "",
     "stripe":""
   },
   "repository": {
